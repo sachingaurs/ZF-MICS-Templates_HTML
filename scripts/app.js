@@ -299,14 +299,20 @@ var columns = [
         
     },
 
-{
+    {
         field: 'MaxValue',
         title: 'Max Value',
         
     },
-  {
+    {
         field: 'Ignore',
         title: 'Ignore',
+        align: 'left',
+       
+    },
+    {
+        field: 'Sub Template',
+        title: 'Sub Template',
         align: 'left',
        
     },
@@ -331,7 +337,8 @@ var exampleTableData = [
         "Order": "001",
         "MinValue": 1000,
         "MaxValue": "2000",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": "" 
     },
     {
         "state": false,
@@ -341,7 +348,8 @@ var exampleTableData = [
         "Order": "002",
         "MinValue": 1100,
         "MaxValue": "1200",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": ""
     },
     {
         "state": false,
@@ -351,7 +359,8 @@ var exampleTableData = [
         "Order": "003",
         "MinValue": 900,
         "MaxValue": "1000",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": ""
     },
     {
         "state": false,
@@ -361,7 +370,8 @@ var exampleTableData = [
         "Order": "004",
         "MinValue": 300,
         "MaxValue": "311",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": 021
     },
     {
         "state": false,
@@ -371,7 +381,8 @@ var exampleTableData = [
         "Order": "005",
         "MinValue": 499,
         "MaxValue": "550",
-        "Ignore": "True"
+        "Ignore": "True",
+        "Sub Template": ""
     },
     {
        "state": false,
@@ -381,7 +392,8 @@ var exampleTableData = [
         "Order": "006",
         "MinValue": 730,
         "MaxValue": "750",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": 021
     },
     {
         "state": false,
@@ -391,7 +403,8 @@ var exampleTableData = [
         "Order": "007",
         "MinValue": 1000,
         "MaxValue": "1290",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": ""
     },
     {
         "state": false,
@@ -401,6 +414,7 @@ var exampleTableData = [
         "Order": "008",
         "MinValue": 678,
         "MaxValue": "700",
-        "Ignore": "False"
+        "Ignore": "False",
+        "Sub Template": ""
     }
 ];
